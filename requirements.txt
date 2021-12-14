@@ -1,4 +1,10 @@
+-f https://download.pytorch.org/whl/torch_stable.html
 Flask==1.1.1
 gunicorn==19.9.0
 nltk==3.6.5
-torch==1.10.0
+torch==1.6.0+cpu
+torchvision==0.7.0+cpu
+numpy==1.19.1
+Werkzeug==1.0.1
+itsdangerous==1.1.0
+Jinja2==2.11.2
