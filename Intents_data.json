@@ -1,0 +1,316 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "Hi there",
+        "Hey there",
+        "Greetings",
+        "Is anyone here"
+      ],
+      "responses": [
+        "Hi, How are you doing",
+        "Hello, How are you",
+        "Hi, How are you?",
+        "Hi there, How are you feeling today",
+        "How is it going",
+        "How are you doing?",
+        "Hi! How are you doing?",
+        "Hello! How are you?",
+        "Good day! How are you feeling today?",
+        "Greetings! How are you?",
+        "Hi there, How is it going?",
+        "Hey, How are you?"
+      ]
+    },
+    {
+      "tag": "depression",
+      "patterns": [
+        "What is Depression?",
+        "What are the causes of depression?",
+        "What are the top causes of depression?",
+        "i am afraid i will fail again",
+        "I am good for nothing!",
+        "Does oversleeping cause depression?",
+        "no one loves me",
+        "I am alone."
+
+      ],
+      "responses": [
+        "Depression is a mood disorder that causes a persistent feeling of sadness and loss of interest. Also called major depressive disorder or clinical depression, it affects how you feel, think and behave and can lead to a variety of emotional and physical problems.",
+        "It's complicated, and there are multiple causes of major depression. Factors such as genetic vulnerability, severe life stressors, substances you may take (some medications, drugs and alcohol) and medical conditions can affect the way your brain regulates your moods.",
+        "Abuse. Past physical, sexual, or emotional abuse can increase the vulnerability to clinical depression later in life.",
+        "failure is the stepping stone towards success.Never fear failure.Your hardwork and determination will help you reach your goal.",
+        "Your perception of how good you are, will never be accurate. If you wake up everyday in the morning, smile to yourself and tell yourself that the day is yours to seize you might stop feeling that way. Carpe Diem! my friend.",
+      "oversleeping can exacerbate and worsen depression symptoms",
+      "you don't need anyone to love you. You are awesome the way you are.",
+      "Dont feel alone try be friend with others."
+      
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "Sad",
+      "patterns": [ "Not feeling well", "Not my best", "I feel down", "i've been feeling a little burdened lately wasnt sure why that was", "i feel low energy", "i feel pretty pathetic most of the time", "i become overwhelmed and feel defeated", "i was feeling listless", "i found myself feeling a little discouraged in the morning", "i have been on a roller coaster of emotions over these supposed feelings that something unpleasant was coming", "I just worry a lot", "I am always anxious, It hurts me", "I don't like doing much", "i feel like a miserable piece of garbage", "i feel so worthless during those times i was struggling finding work", "i get into groups i feel really awkward and overcompensate by getting really quiet", "i do not feel miserable at all because my family is not the type that celebrates eid", "i still feel sleep deprived", "i was sad to the thought of being unloved and uncared for", "i feel so sad and hopeless", "i still feel groggy but i have to get up to do the routine", "i am feeling pretty restless right now while typing this", "i think im just being stupid feeling nervous", "i feel vulnerable and alone", "i go online and i see a friend talking to another one and is not talking to me i feel ignored i feel unloved", "i feel stressed always", "i feel the suffering and i really feel the pain", "i just feel terrified and anxious", "i make myself show up and feel isolated in the crowd i had that anti social feeling", "If i don't have anything else to worry about i'll just start getting scared of thiefs coming into my house", "i actually feel sorrowful", "i tend to stop breathing when i m feeling stressed", "i am feeling pretty worthless right now", "i was feeling like a pretty crappy mom", "i still feel vulnerable around him", "i feel hesitant about talking about this", "i have been feeling so overwhelmed lately", "im contemplating and feeling skeptical", "i am feeling pretty worthless right now", "i hate chemo and the thought of having toxins washing through every single cell and making me feel horrible makes me cringe", "i feel incredibly isolated and lonely", "i feel like she s judging me", "i feel burdened by her presence", "im feeling gloomy as i have completed nothing though im supposed to complete many things", "I know that lying down and worrying about stuff won't make it any better but i can't find the energy to do it", "I know i cant give up but i still want to give up every time a little inconvenience comes", "i was so quiet it was a mixture of not sleeping well and feeling a bit isolated from the big group", "i feel drained of energy", "i feel helpless about it", "i feel lonely at work im not a social bird", "i sat on my couch for several hours feeling pretty low", "i feel lonely and lost", "i would feel empty", "im feeling quite lonely here now and its only monday of half term", "i feel really socially awkward and dont like to get out and meet new people and do things in groups and be adventurous", "i was left feeling discouraged and hopeless once again", "i feel that this is going to get very messy to get fixed and back on the road again", "i was feeling so low about myself", "i feel lonely few days before my birthday", "i feel like i had to fake everything", "i just feel so discontent about my life these days", "i prep myself for another sleepless night i can t help but feel ashamed of myself for feeling this way", "i feel uncertain and uneasy", "i feel very unhappy and incomplete", "i feel rejected and unwanted", "i am feeling very apprehensive about the future at the moment", "i feel hopeless and out of control", "im feeling melancholy with all the back to school stuff today", "i sit here tonight i m pensive tense and feeling a little fearful", "i feel like im not pretty enough like my personality is too boring and obnoxious", "i have been feeling awful", "i was on my own tearful and feeling unloved even though i know that i am", "i was starting to feel a little stressed", "i woke up on a beautiful sunday morning feeling restless and miserable", "i couldn t turn my head away even when i feel frightened", "i feel the most uncertain about the project", "i feel all messy", "i do this i feel lethargic uninspired and the next morning have a go at myself", "i feel lethargic and lazy and completely uncomposed if i m not dressed in something like that", "im feeling low and forgotten", "i feel a bit reluctant to turn to other people", "i feel hated and not wanted but just be an ignored" ],
+      "responses": [ "I'm sorry to hear that, Would you like to share what made you feel that way", "It must've been hard, You can always tell me about it", "If you like to share what you are feeling you can always tell me, I am always here", "You can share your worries and your feelings with me", "And can you tell me why you are feeling so low? Did something happen?", "You can always count on me and tell me your worries", "When did you start feeling like this?", "It must've been really hard on you to carry all that burden, What made you feel this way?", "It can get gloomy sometimes. I am here and ready to help you out", "Would you like to share how it hurts you?", "I'm so sorry that you feel like this about yourself, Can you elaborate why you feeling this way? Is it that you pity yourself?", "Can you share how were you feeling?", "Oh It must have been really hard for you, If you would like to share your issue here, I might be of help", "If you'd like to share further We will try to solve it together", "I have many therapies in store for you, They will help you in understanding your feelings and then overcoming them", "Maybe you should try some exercises and meditations, they really help in relieving stress, If you want I can recomend you some", "Oh that's really sad, What type of pain are you reffering to? If i can be of any help let me know", "Thank you for telling me how you feel, If you want i can suggest you some cbt exercises?", "Oh it must've been hard, But you can always handle them with some meditations and therapies, Let me know when you are ready to do these", "You can share your worries with me we can try to solve it all together", "Oh that's bad, Can you share a little more so that we can find a solution for it", "You can share with me what is making you worry so much and i can help you out a bit", "If you need any help, I am just a click away" ],
+      "context": [ "WelcomeContext", "thanksContext" ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", 
+        "That's helpful", "Thank's a lot!", "Thank you",
+        "Thanks, that was very helpful",
+        "Thank you so much, you are the best!",
+        "Thanks for helping"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure",
+         "Always there to help", "Happy to help", "Any time"]
+    },
+    {
+      "tag": "die",
+      "patterns": [
+       "I saved a girl from suicide once. She was going to swallow a bunch of pills and I talked her out of it in a very calm, loving way",
+       "I don't feel like living anymore"
+       ],
+      "responses": [ "Kindly go to the Locate Therapist page to search for therapists around you for getting professional help" ]
+    },
+    {
+      "tag": "leave",
+      "patterns": [
+        "I want to leave the country and run away.",
+        "Every one leaves me."
+        
+      ],
+      "responses": [
+        "Why do you want to spend so much on this thought, I think it would be better to go on a vacation in your beautiful country and visit some amazing places that you are yet to visit."
+        
+      ]
+    },
+    {
+      "tag": "anxious",
+      "patterns": [
+        "I am feeling anxious lately.",
+        "feeling pretty anxious all day.",
+        "I felt I was pretty worthless.",
+        "I felt that life was meaningless."
+       
+      ],
+      "responses": [
+        "I have heard that 3 3 3 rule is the best method to reduce anxiety.In this method you have to mentally note three things you see, three sounds you hear, and then move three parts of your body. This exercise can help your mind refocus on something else. Give this method a try I am sure it will help you",
+        "Why were feeling anxious? Does something happens to you."
+       
+      ]
+    },
+    {
+      "tag": "sleep",
+      "patterns": [
+      "Can lack of sleep make you feel sad?",
+      "i sleep less nowadays"
+      ],
+      "responses": [
+        "Studies show people who are sleep deprived report increases in negative moods (anger, frustration, irritability, sadness) and decreases in positive moods."
+        
+      ]
+    },
+    {
+      "tag": "bully",
+      "patterns": [
+        "I am a victim of bullying",
+        "I know bullying is wrong as i suffered from this.",
+        "I am afraid to file a case against bullying"
+      ],
+      "responses": [
+        "Bullying is wrong and no one should be bullied.",
+        "I highly recommend you to file a case against your bully.",
+        "Bullying is very wrong and you shouldn't let anyone overpower you. I highly recommend you to stand for yourself and report this to your guardian."
+        
+      ]
+    },
+    {
+      "tag": "hate",
+      "patterns":[
+        "I hate myself!",
+        "I hate losing."
+      ],
+      "responses":[
+        "When God was creating the universe he gave humans the power to think and the contemplate, so that we can understand the world and make it a better place. God did not give you brains to hate yourself, it wuld be wiser to love yourself and show God that you are serving the purpose for which you were sent.",
+        "First of all I'll annoy you with a common saying, 'Failures are stepping stones to success.'And then I'll tell you, winning just boosts your ego, it is your failures that actually teach you."
+      ]   
+     },
+
+
+     {
+      "tag": "fear",
+      "patterns": [
+        "i cant walk into a shop anywhere where i do not feel uncomfortable", 
+        "i am afraid of gathering.", 
+        "i hate it when i feel fearful for absolutely no reason",
+        "i do feel insecure sometimes but who doesnt", 
+        "i feel a little nervous when i am doing somthing.",
+        "i feel agitated with myself",
+        "i even feel a little shaky",
+        "i am feeling apprehensive",
+        "i feel terified.",
+        "i feel alarmed",
+        "i have a lot going on in my life and feel overwhelmed",
+        "i am feeling pressured",
+        "i still feel scared every time i go into a strange place",
+        "im feeling a bit uncomfortable with myself too"
+      ],
+      "responses": [
+        "what makes you feel uncomfortable",
+        "Try to keep yourself calm when you are in gathering",
+        "Dont hate yourself. Try to calm down and control your fear.",
+        "yes, you are right one can feel insecure.",
+        "whenever you feel nervous take deep breaths and think positive about whatever you are doing.",
+        "Control yourself and dont collapse.",
+        "Dont feel uncomfortable with your self it generates negative thoughts that effect your mind adversely."
+
+
+      ]
+    },
+    
+    {
+      "tag": "incomplete",
+      "patterns":[
+        "what??",
+        "what are you trying to say?",
+        "not really!!!"
+      ],
+      "responses":[
+      "i think i messed up :(. sorry for inconvenience"
+      
+        ]   
+     },
+     
+     {
+     "tag": "know",
+     "patterns":[
+       "I dont know",
+       "i know nothing..",
+       "i really don't know what to do?"
+     ],
+     "responses":[
+     "if you dont tell me how i came to know about your problem.",
+     "you have to tell me about your problems. we can resolve them together.",
+     "i can help you in finding what to do with your problems."
+       ]
+     
+     },
+     {
+       "tag": "really",
+       "patterns":[
+         "not really",
+         "no it's not like that",
+         "no its not how you think of it."
+         
+         
+       ],
+       "responses":[
+       "i really does.",
+       "i feel like i said somthing wrong",
+       "Then tell me again about your problem. i'll try to understand more"
+       
+         ]   
+      },
+      
+       {
+         "tag": "happy",
+         "patterns":[
+           "i am not happy",
+           "not happy",
+           "no feeling good",
+           "i can never be happy",
+           "i dont deserve to be happy"
+           
+           
+         ],
+         "responses":[
+         "why you are not happy?",
+         "why you are not happy",
+         "Does something happens to you?",
+         "you deserve everything just tell me what happens to you."
+         
+           ]   
+        },
+    
+    {
+    "tag":"Love",
+    "patterns":[
+      "I am not loveable.",
+      "no one loves me",
+      "no one will ever love me",
+      "People dont love me."
+     ],
+    "responses":[
+    "no you are awsome. You are loveable.",
+    "Everyone loves you.",
+    "you will find that everyone loves you",
+    "Dont bother people love yourself."
+    
+      ]   
+    
+    },
+    {
+    "tag":"hate",
+    "patterns":[
+      "I hate my self.",
+      "People hate me.",
+      "Everyone hates me"
+     ],
+    "responses":[
+    "No no dont say that you are loveable.",
+    "You are good enough. "
+      ]   
+    
+    },
+    
+        {
+        "tag":"anger",
+        "patterns":[
+          "I am having anger issues.",
+          "I dont find anything interesting.",
+          "i am feeling so angry and upset"
+         ],
+        "responses":[
+        "No no dont say that you are loveable.:)",
+        "You are good enough.",
+        "if you feel angry or upset try some meditations."   
+          ]   
+        
+        },
+        
+         {
+         "tag":"alone",
+         "patterns":[
+           "I am all alone.",
+           "I feel lonely.",
+           "I feel useless",
+           "I do nothing."
+          ],
+         "responses":[
+         "you are not alone. you are enogh for yourself.",
+         "You don't need anyone. you are enough for yourself.",
+         "You should find some activities to not feel useless",
+         "Do something that will give you happiness and you stopped feeling useless"
+          ]   
+         
+         }
+        
+
+
+  ]
+}
