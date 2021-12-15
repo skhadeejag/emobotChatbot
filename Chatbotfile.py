@@ -8,7 +8,7 @@ def getresponse(msg):
     
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     
-    with open('intents_data.json', 'r') as data_intents:
+    with open('Intents_data.json', 'r') as data_intents:
         intents_data = json.load(data_intents)
     
     FILE = "data.pth"
@@ -53,8 +53,8 @@ def getresponse(msg):
                     print(result)
                    
         else:
-            result.append(f"{Emobot_name}: {random.choice(response_intent['responses'])}") 
-            result.append(tag_intent)
+            result.append(f"{Emobot_name}: i don't understand") 
+          
             print(result)
         break
       
