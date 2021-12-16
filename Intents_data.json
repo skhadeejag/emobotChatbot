@@ -35,28 +35,17 @@
         "What is Depression?",
         "What are the causes of depression?",
         "What are the top causes of depression?",
-        "i am afraid i will fail again",
-        "I am good for nothing!",
-        "Does oversleeping cause depression?",
-        "no one loves me",
-        "I am alone."
-
+        "Does oversleeping cause depression?"
       ],
       "responses": [
         "Depression is a mood disorder that causes a persistent feeling of sadness and loss of interest. Also called major depressive disorder or clinical depression, it affects how you feel, think and behave and can lead to a variety of emotional and physical problems.",
         "It's complicated, and there are multiple causes of major depression. Factors such as genetic vulnerability, severe life stressors, substances you may take (some medications, drugs and alcohol) and medical conditions can affect the way your brain regulates your moods.",
-        "Abuse. Past physical, sexual, or emotional abuse can increase the vulnerability to clinical depression later in life.",
-        "failure is the stepping stone towards success.Never fear failure.Your hardwork and determination will help you reach your goal.",
-        "Your perception of how good you are, will never be accurate. If you wake up everyday in the morning, smile to yourself and tell yourself that the day is yours to seize you might stop feeling that way. Carpe Diem! my friend.",
-      "oversleeping can exacerbate and worsen depression symptoms",
-      "you don't need anyone to love you. You are awesome the way you are.",
-      "Dont feel alone try be friend with others."
-      
+      "oversleeping can exacerbate and worsen depression symptoms"
       ]
     },
     {
       "tag": "goodbye",
-      "patterns": ["Bye", "See you later", "Goodbye"],
+      "patterns": ["Bye", "See you later", "Goodbye", "bye bye"],
       "responses": [
         "See you later, thanks for visiting",
         "Have a nice day",
@@ -80,23 +69,26 @@
          "Always there to help", "Happy to help", "Any time"]
     },
     {
-      "tag": "die",
+      "tag": "flagged",
       "patterns": [
        "I saved a girl from suicide once. She was going to swallow a bunch of pills and I talked her out of it in a very calm, loving way",
-       "I don't feel like living anymore"
+       "I don't feel like living anymore", "I want to die", "I want to escape from this world by ending everything", "I cant live anymore", "I get suicidal at times", "I want to end this life", "I think about taking my life", "I want to kill myself", "If only i could kill myself", "I wish I could end my life", "I want to give up on my life"
        ],
-      "responses": [ "Kindly go to the Locate Therapist page to search for therapists around you for getting professional help" ]
+      "responses": [ "Kindly go to the Locate Therapist page to search for therapists around you for getting professional help" , "Suicide is not the solution! Try to search for a nearby therapist on our Locate Therapist page to get professional help"]
     },
     {
       "tag": "leave",
       "patterns": [
         "I want to leave the country and run away.",
-        "Every one leaves me."
-        
+        "I want to run away from all these problems",
+        "I want to escape from my problems",
+        "I have no option but to run away from my problems",
+        "I tend to hide from and avoid difficult situations"
       ],
       "responses": [
-        "Why do you want to spend so much on this thought, I think it would be better to go on a vacation in your beautiful country and visit some amazing places that you are yet to visit."
-        
+        "Escaping is never a good option you should try and fight head on with your problems, thats a better solution",
+        "Running away from your problems is never the solution, you can try asking for help if you cant solve your problems yourself",
+        "Everyone has their share of problems and we all get through it sooner or later, so dont give up or run away but try to solve it"
       ]
     },
     {
@@ -104,14 +96,20 @@
       "patterns": [
         "I am feeling anxious lately.",
         "feeling pretty anxious all day.",
-        "I felt I was pretty worthless.",
-        "I felt that life was meaningless."
-       
+        "I found it difficult to relax.",
+        "I felt that I was using a lot of nervous energy.",
+        "I felt scared without any good reason.",
+        "I felt I was close to panic.",
+        "I was in a state of nervous tension.",
+        "I felt terrified.",
+        "I worry a lot",
+        "I am always worried"
       ],
       "responses": [
         "I have heard that 3 3 3 rule is the best method to reduce anxiety.In this method you have to mentally note three things you see, three sounds you hear, and then move three parts of your body. This exercise can help your mind refocus on something else. Give this method a try I am sure it will help you",
-        "Why were feeling anxious? Does something happens to you."
-       
+        "You should try to relax by going out and having some quality time with your friends or loved ones",
+        "It seems you overthink a lot, you should try to schedule your overthinking time, in which you can think why you are feeling anxious or worried",
+        
       ]
     },
     {
@@ -121,8 +119,9 @@
       "i sleep less nowadays"
       ],
       "responses": [
-        "Studies show people who are sleep deprived report increases in negative moods (anger, frustration, irritability, sadness) and decreases in positive moods."
-        
+        "Studies show people who are sleep deprived report increases in negative moods (anger, frustration, irritability, sadness) and decreases in positive moods. Try to sleep for at least 6-7 hours daily",
+        "Sleep deprivation can make you lethargic, try to sleep for a good amount of time and relax before sleeping so that you get a good quality sleep",
+        "Lack of sleep is not good for your health, so you should try to sleep more by stressing less."
       ]
     },
     {
@@ -133,10 +132,8 @@
         "I am afraid to file a case against bullying"
       ],
       "responses": [
-        "Bullying is wrong and no one should be bullied.",
-        "I highly recommend you to file a case against your bully.",
+        "Bullying is wrong and no one should be bullied. You should try talking to your parents or guardian to help you out in this problem.",
         "Bullying is very wrong and you shouldn't let anyone overpower you. I highly recommend you to stand for yourself and report this to your guardian."
-        
       ]
     },
     {
@@ -146,8 +143,8 @@
         "I hate losing."
       ],
       "responses":[
-        "When God was creating the universe he gave humans the power to think and the contemplate, so that we can understand the world and make it a better place. God did not give you brains to hate yourself, it wuld be wiser to love yourself and show God that you are serving the purpose for which you were sent.",
-        "First of all I'll annoy you with a common saying, 'Failures are stepping stones to success.'And then I'll tell you, winning just boosts your ego, it is your failures that actually teach you."
+        "You should not hate yourself for anything, try to overcome your insecurities and accept yourself for who you are, you are doing great.",
+        "Failures are a part of life, douot hate yourself for anything, Everything will be fine and you are a great person too."
       ]   
      },
 
@@ -171,15 +168,11 @@
         "im feeling a bit uncomfortable with myself too"
       ],
       "responses": [
-        "what makes you feel uncomfortable",
         "Try to keep yourself calm when you are in gathering",
-        "Dont hate yourself. Try to calm down and control your fear.",
-        "yes, you are right one can feel insecure.",
+        "Try to calm down and control your fear.",
         "whenever you feel nervous take deep breaths and think positive about whatever you are doing.",
-        "Control yourself and dont collapse.",
-        "Dont feel uncomfortable with your self it generates negative thoughts that effect your mind adversely."
-
-
+        "Control your feelings of fear, only you can overcome them if you try.",
+        "Dont feel uncomfortable with due to fear it generates negative thoughts that effect your mind adversely."
       ]
     },
     
@@ -192,7 +185,6 @@
       ],
       "responses":[
       "i think i messed up :(. sorry for inconvenience"
-      
         ]   
      },
      
@@ -207,7 +199,7 @@
      "if you dont tell me how i came to know about your problem.",
      "you have to tell me about your problems. we can resolve them together.",
      "i can help you in finding what to do with your problems."
-       ]
+      ]
      
      },
      {
@@ -216,8 +208,6 @@
          "not really",
          "no it's not like that",
          "no its not how you think of it."
-         
-         
        ],
        "responses":[
        "i really does.",
@@ -230,20 +220,28 @@
        {
          "tag": "happy",
          "patterns":[
-           "i am not happy",
-           "not happy",
-           "no feeling good",
-           "i can never be happy",
-           "i dont deserve to be happy"
-           
-           
+           "i am so happy".
+           "so happy",
+           "feeling good",
+           "i am so happy today",
+           "i feel so good today",
+           "I am joy ful",
+           "I am feeling very good today",
+           "I am good",
+           "I am great",
+           "great",
+           "It was a wonderful day today",
+           "I had a lot of fun",
+           "I am having the best time of my life",
+           "I am having fun"
+
          ],
          "responses":[
-         "why you are not happy?",
-         "why you are not happy",
-         "Does something happens to you?",
-         "you deserve everything just tell me what happens to you."
-         
+          "Woah, that's great, If you still need anything, I am a touch away",
+          "That's good, I am thankful that you are happy",
+           "It makes me happy to know you are happy",
+           "I wish your happiness always prevail",
+           "That's great, enjoy your life",
            ]   
         },
     
@@ -256,9 +254,9 @@
       "People dont love me."
      ],
     "responses":[
-    "no you are awsome. You are loveable.",
-    "Everyone loves you.",
-    "you will find that everyone loves you",
+    "no you are awesome. You are loveable.",
+    "Nobody hates you, Don't think badly about yourself",
+      "Don't think low of yourself, you are doing great",
     "Dont bother people love yourself."
     
       ]   
@@ -272,8 +270,9 @@
       "Everyone hates me"
      ],
     "responses":[
-    "No no dont say that you are loveable.",
-    "You are good enough. "
+    
+    "You are good enough, don't hate yourself over nothing or anything",
+      "You are great, don't think negatively about yourself",
       ]   
     
     },
@@ -282,13 +281,13 @@
         "tag":"anger",
         "patterns":[
           "I am having anger issues.",
-          "I dont find anything interesting.",
+          "I am always angry",
           "i am feeling so angry and upset"
          ],
         "responses":[
-        "No no dont say that you are loveable.:)",
         "You are good enough.",
-        "if you feel angry or upset try some meditations."   
+        "if you feel angry or upset try some meditations to relax your self",
+          "You should try watching some meditation videos to relax your negative emotions"
           ]   
         
         },
@@ -298,17 +297,47 @@
          "patterns":[
            "I am all alone.",
            "I feel lonely.",
-           "I feel useless",
-           "I do nothing."
+           "I feel useless and lonely",
+           "I do nothing and feel lonely"
           ],
          "responses":[
-         "you are not alone. you are enogh for yourself.",
+         "you are not alone. you are enough for yourself.",
          "You don't need anyone. you are enough for yourself.",
-         "You should find some activities to not feel useless",
-         "Do something that will give you happiness and you stopped feeling useless"
+         "You should find some activities to do to not feel lonely",
+         "Do something that will give you happiness and find new hobbies"
           ]   
          
-         }
+         },
+    
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?",
+    "Do you know something funny"
+      ],
+      "responses": [
+        "What did the shark say when it ate the clownfish? This tastes funny",
+        "Why prime minister is not seen in the morning? Because he is PM"
+      ]
+    },
+{
+      "tag": "song",
+      "patterns": [
+        "Sing a song",
+        "Sign me a song",
+        "I am bored, sing a song",
+        "I am bored, sing something",
+        "I am bored, do something",
+       
+      ],
+      "responses": [
+        "I cant sing, or else i would've entertained you",
+        "I cant even sing, I am a chatbot"
+      ]
+    }
+
         
 
 
